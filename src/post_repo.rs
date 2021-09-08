@@ -15,6 +15,10 @@ impl PostRepository {
         Some(Post::new(0, "hoge", "fuga"))
     }
 
+    pub fn create(&self, id:i64, post:Post){
+        // no action
+    }
+
     pub fn delete(&self, id:i64) {
         // no action
     }
